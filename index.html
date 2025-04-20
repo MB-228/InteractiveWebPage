@@ -1,0 +1,63 @@
+<head>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+    <title> MB Productions </title>
+    
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <h1> Welcome to the officially official MB Productions website </h1>
+
+    <div class = "button1">
+        <button id = "button1" type = "button"> <b>YouTube channel</b> </button>
+    </div>
+    
+    <div class = "button2">
+        <button id = "button2" type = "button"> <b>Instagram</b> </button>
+    </div>
+
+    <div class = "button3">
+        <button id = "button3" type = "button"> <b>Itch.io</b> </button>
+    </div>
+
+    <div class = "button4">
+        <button id = "button4" type = "button"> <b>GameJolt</b> </button>
+    </div>
+
+    <div class = "mainImage">
+        <img src="c:\Users\MBORD25008\Downloads\TMB.jpg" alt="Team m bomb logo" width="700" height="700">
+    </div>
+</body>
+<script>
+    function openYoutubechannel() {
+        window.open('https://www.youtube.com/channel/UCOz8HrhHTXorT78dE3nxqkQ');
+    }
+
+    function openInsta() {
+        window.open('https://www.instagram.com/team_m_bomb/');
+    }
+
+    function openItch() {
+        window.open('https://team-m-bomb-games.itch.io/');
+    }
+
+    function openGJ() {
+        window.open('https://gamejolt.com/@Mario_B');
+    }
+
+    document.getElementById("button1").onclick = function() {
+        openYoutubechannel();
+    }
+
+    document.getElementById("button2").onclick = function() {
+        openInsta();
+    }
+
+    document.getElementById("button3").onclick = function() {
+        openItch();
+    }
+
+    document.getElementById("button4").onclick = function() {
+        openGJ();
+    }
+</script>
